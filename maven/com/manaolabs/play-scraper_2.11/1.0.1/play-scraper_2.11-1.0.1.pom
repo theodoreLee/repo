@@ -38,9 +38,9 @@
             <version>2.1</version>
         </dependency>
         <dependency>
-            <groupId>com.gravity.goose</groupId>
-            <artifactId>goose_2.11</artifactId>
-            <version>2.1.23</version>
+            <groupId>com.syncthemall</groupId>
+            <artifactId>goose</artifactId>
+            <version>2.1.25</version>
         </dependency>
         <dependency>
             <groupId>com.ibm.icu</groupId>
