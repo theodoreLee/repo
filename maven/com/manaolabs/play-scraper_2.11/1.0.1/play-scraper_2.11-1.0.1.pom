@@ -38,6 +38,11 @@
             <version>2.1</version>
         </dependency>
         <dependency>
+            <groupId>com.gravity.goose</groupId>
+            <artifactId>goose_2.11</artifactId>
+            <version>2.1.23</version>
+        </dependency>
+        <dependency>
             <groupId>com.syncthemall</groupId>
             <artifactId>goose</artifactId>
             <version>2.1.25</version>
@@ -81,6 +86,12 @@
             <id>sonatypesnapshots</id>
             <name>sonatype-snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TheodoreRepository</id>
+            <name>Theodore Repository</name>
+            <url>https://raw.github.com/theodoreLee/repo/master/maven/</url>
             <layout>default</layout>
         </repository>
     </repositories>
