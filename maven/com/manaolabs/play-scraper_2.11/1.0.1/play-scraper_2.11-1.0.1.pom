@@ -83,11 +83,5 @@
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>TheodoreRepository</id>
-            <name>Theodore Repository</name>
-            <url>https://raw.github.com/theodoreLee/repo/master/maven/</url>
-            <layout>default</layout>
-        </repository>
     </repositories>
 </project>
