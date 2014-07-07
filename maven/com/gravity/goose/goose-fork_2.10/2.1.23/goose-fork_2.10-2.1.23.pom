@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gravity.goose</groupId>
-    <artifactId>goose-fork_2.11</artifactId>
+    <artifactId>goose-fork_2.10</artifactId>
     <packaging>jar</packaging>
     <description>goose-fork</description>
     <version>2.1.23</version>
@@ -14,11 +14,11 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.11.0</version>
+            <version>2.10.4</version>
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.11</artifactId>
+            <artifactId>scalatest_2.10</artifactId>
             <version>2.1.6</version>
             <scope>test</scope>
         </dependency>
