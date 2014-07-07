@@ -84,6 +84,12 @@
             <layout>default</layout>
         </repository>
         <repository>
+            <id>JLangDetectMavenrepository</id>
+            <name>JLangDetect Maven repository</name>
+            <url>https://jlangdetect.googlecode.com/svn/repo/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>TheodoreRepository</id>
             <name>Theodore Repository</name>
             <url>https://raw.github.com/theodoreLee/repo/master/maven/</url>
