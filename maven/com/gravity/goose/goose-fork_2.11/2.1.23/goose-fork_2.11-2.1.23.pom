@@ -78,6 +78,12 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>typesafereleases</id>
+            <name>typesafe-releases</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>sonatypesnapshots</id>
             <name>sonatype snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
