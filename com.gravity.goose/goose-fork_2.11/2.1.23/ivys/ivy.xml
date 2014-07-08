@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.gravity.goose" module="goose-fork_2.11" revision="2.1.23" status="release" publication="20140708173128">
+		<description>
+		goose-fork
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		
+	</configurations>
+	<publications>
+		<artifact name="goose-fork_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="goose-fork_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="goose-fork_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="goose-fork_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.1.6" conf="test->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.8.1" conf="test->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.7" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.7" conf="test->default(compile)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.1" conf="compile->default(compile)"/>
+		<dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile->default(compile)"/>
+		<dependency org="com.ibm.icu" name="icu4j" rev="53.1" conf="compile->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.10-M4" conf="test->default(compile)"/>
+		<dependency org="me.champeau.jlangdetect" name="jlangdetect-extra" rev="0.4" conf="compile->default(compile)"/>
+		<dependency org="org.jsoup" name="jsoup" rev="1.7.3" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
