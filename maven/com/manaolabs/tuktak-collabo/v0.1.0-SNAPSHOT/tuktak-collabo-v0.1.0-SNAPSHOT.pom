@@ -9,7 +9,7 @@
     </parent>
 
     <packaging>jar</packaging>
-    <groupId>org.webjars</groupId>
+    <groupId>com.manaolabs</groupId>
     <artifactId>tuktak-collabo</artifactId>
     <version>v0.1.0-SNAPSHOT</version>
     <name>TukTak Collaboration Front Part</name>
